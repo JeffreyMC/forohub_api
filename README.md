@@ -45,6 +45,6 @@ La API implementará las siguientes rutas para manejar los tópicos:
 - Java 17 o superior
 - Maven para la gestión de dependencias
 - Base de datos relacional PostgreSQL
-- Herramienta para hacer peticiones HTTP (Postman, Insomnia, etc. Yo utilicé Bruno (Hay un directorio en este proyecto llamado "forohub" con las peticiones de ejemplo))
+- Herramienta para hacer peticiones HTTP (Postman, Insomnia, etc. Yo utilicé Bruno (Acá hay un directorio con algunos ![ejemplos](https://github.com/JeffreyMC/forohub_api/tree/main/forohub) de cómo realizar las peticiones))
 
 
