@@ -1,11 +1,11 @@
 meta {
-  name: Postear en foro
+  name: Actualizar topico por id
   type: http
-  seq: 2
+  seq: 4
 }
 
-post {
-  url: http://localhost:8080/topics
+put {
+  url: http://localhost:8080/topics/2
   body: json
   auth: bearer
 }
@@ -16,10 +16,6 @@ auth:bearer {
 
 body:json {
   {
-    "titulo": "Primeros pasos en SQL",
-    "mensaje": "con este tutorial aprenderas motores de bases de datos",
-    "status": "ACTIVO",
-    "autor": 1,
-    "curso": 2
+    "titulo": "Primeros pasos en JAVA"
   }
 }
