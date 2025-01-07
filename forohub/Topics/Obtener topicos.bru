@@ -1,0 +1,15 @@
+meta {
+  name: Obtener topicos
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8080/topics
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGb3JvIEh1YiIsInN1YiI6ImplZmYiLCJpZCI6MSwiZXhwIjoxNzM2MjE4NDcxfQ.g2YShSqOSlfYBn_zJ8QEZVE9pPpzOObxhhFvGHpvYgk
+}

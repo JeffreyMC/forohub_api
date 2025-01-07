@@ -1,0 +1,25 @@
+meta {
+  name: Postear en foro
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/topics
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGb3JvIEh1YiIsInN1YiI6ImplZmYiLCJpZCI6MSwiZXhwIjoxNzM2MjE4MTUxfQ.zS1_H4cshcLd1eMOSGXjMzhq2g_JTZltDhaoYW-GTqE
+}
+
+body:json {
+  {
+    "titulo": "Primeros pasos en JAVA",
+    "mensaje": "con este tutorial aprenderas el lenguaje de programacion Java",
+    "status": "ACTIVO",
+    "autor": 1,
+    "curso": 1
+  }
+}
